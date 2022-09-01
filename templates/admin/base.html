@@ -49,6 +49,7 @@
             {% include "admin/navigation.html" %}
             <!-- End Navbar -->
 
+            {% comment %} 수정필요 {% endcomment %}
             <!-- Breadcrumbs -->
             {% if not is_popup and user.is_authenticated %}
                 <div class="breadcrumbs_panel">
@@ -72,12 +73,6 @@
             {% block sidebar %}{% endblock %}
             <!-- End Sidebar -->
         {% endif %}
-
-        <!-- Footer -->
-        {% block footer %}
-            {% include "admin/footer.html" %}
-        {% endblock %}
-        <!-- End Footer -->
     </div>
 </div>
 
