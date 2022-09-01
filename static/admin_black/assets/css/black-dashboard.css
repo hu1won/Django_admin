@@ -184,7 +184,7 @@ sup {
 }
 
 a {
-  color: #bd1c04;
+  color: #ff2200;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2659,7 +2659,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #bd1c04;
+  background-color: #ff2807;
   border-color: #bd1c04;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -2672,13 +2672,13 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(230, 105, 105, 0.5);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(255, 0, 0, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff;
-  background-color: #bd1c04;
+  background-color: #ff2200;
   border-color: #bd1c04;
 }
 
@@ -3138,7 +3138,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0 rgba(172, 19, 19, 0.5);
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
 }
 
 .btn-outline-primary.disabled,
