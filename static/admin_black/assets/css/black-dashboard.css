@@ -1159,6 +1159,7 @@ pre code {
   }
 
   .col-md-12 {
+    margin-top: 30px;
     flex: 0 0 100%;
     max-width: 100%;
   }
