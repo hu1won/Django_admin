@@ -14,7 +14,7 @@
             {% block content_title %}
                 {% if title %}
                 <!-- 타이틀 이름 변경 -->
-                <div class="admin_logo"><img src="{% static 'admin_black/assets/img/now-logo.png' %}" alt="logo"><a class="navbar-brand">{{ title }}</a></div>
+                <div class="admin_logo"><a href="{% url 'admin:index' %}"><img src="{% static 'admin_black/assets/img/now-logo.png' %}" alt="logo"></a><a class="navbar-brand">{{ title }}</a></div>
                 {% endif %}
             {% endblock %}
         </div>
